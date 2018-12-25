@@ -1,0 +1,75 @@
+#carousel
+{
+    max-height: 500px;
+}
+
+#carousel .carousel-inner
+{
+    max-height: 500px;
+}
+
+#carousel .carousel-inner .carousel-item
+{
+    max-height: 500px;
+}
+
+#carousel .carousel-inner .carousel-item img
+{
+    max-height: 300px;
+    width: auto;
+}
+
+#messenger
+{
+    margin-top: 20px;
+}
+
+
+#messenger-messages
+{
+    max-height: 300px;
+    overflow: scroll;
+}
+
+#messenger-messages::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+/* Track */
+#messenger-messages::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+#messenger-messages::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+#messenger-messages::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+.message-other
+{
+    text-align: left;
+}
+
+.message-player
+{
+    text-align: right;
+}
+
+.message
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.message-content
+{
+    padding: 2px 5px;
+}
