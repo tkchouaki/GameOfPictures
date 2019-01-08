@@ -11,7 +11,7 @@ fdist1 = nltk.FreqDist(corpus1)
 vocabulary1 = fdist1.keys()
 
 # Diversité lexicale
-print("Diversité lexicale : {}".format(len(corpus1) / len(vocabulary1)))
+print("Diversite lexicale : {}".format(len(corpus1) / len(vocabulary1)))
 
 # Distribution fréquentielle
 fdist1.plot(100, cumulative=True)
@@ -20,7 +20,7 @@ fdist1.plot(100, cumulative=True)
 res = 0
 for mot in vocabulary1:
 	res += len(mot)
-print("Nombre moyen de caractères par mots: {}".format(res / len(vocabulary1)))
+print("Nombre moyen de caracteres par mots: {}".format(res / len(vocabulary1)))
 
 # Richesse linguistique
 from nltk.corpus import udhr
