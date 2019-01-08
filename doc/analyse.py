@@ -3,10 +3,10 @@ import nltk
 from nltk.corpus import PlaintextCorpusReader
 
 corpus_root = '.'
-corpus_file_name = "corpus"
+corpus_file_name = "corpus-english"
 wordLists = PlaintextCorpusReader(corpus_root, corpus_file_name)
 
-corpus1 = wordLists.words('corpus.txt')
+corpus1 = wordLists.words('corpus-english.txt')
 fdist1 = nltk.FreqDist(corpus1)
 vocabulary1 = fdist1.keys()
 
@@ -25,7 +25,7 @@ print("Nombre moyen de caracteres par mots: {}".format(res / len(vocabulary1)))
 # Richesse linguistique
 from nltk.corpus import udhr
 
-udhrfr = nltk.corpus.udhr.words('French_Francais-Latin1')
+udhrfr = nltk.corpus.udhr.words('English-Latin1')
 fdist2 = nltk.FreqDist(udhrfr)
 vocabulary2 = fdist2.keys()
 
