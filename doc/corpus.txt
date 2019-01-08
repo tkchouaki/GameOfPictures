@@ -1,0 +1,90 @@
+Est-ce qu'il y a une boite ?
+- Non, il n'y en a pas
+- Oui, il y en a
+- Oui, il y en a
+- Oui, il y en a
+Est-ce qu'il y a un tube ?
+- Bain oui, ça s'appele petit filous tubs
+- Bain oui, ça s'appele petit filous tubs
+- Bain oui, ça s'appele petit filous tubs
+- Bain oui, ça s'appele petit filous tubs
+Est-ce qu'il y a des colorants ?
+- Peut etre
+- Peut etre
+- Non, pas de cochonneries comme ça
+- Non, pas de cochonneries comme ça
+Est-ce qu'il y a un pirate ?
+- Non, pourquoi il y'en aurait ?
+- Non, pourquoi il y'en aurait ?
+- Oui moussaillon
+- Oui moussaillon
+Est-ce qu'il y a un offre eco ?
+- Peut etre
+- Pas en ma connaissance
+- Pas en ma connaissance
+- A oui oui oui !
+Y a-t-il des étoiles ?
+- ça brille de Mile feux
+- Non :(
+- Oui
+- Oui
+Est-ce qu'il y a de la fraise ?
+- A oui, la fraise c'est bon
+- Il doit surement y en avoir
+- Il doit surement y en avoir
+- Il doit surement y en avoir
+Est-ce qu'il y a de la framboise ?
+- Non, je n'aime pas les framboises
+- Il doit surement y en avoir
+- Il doit surement y en avoir
+- Il doit surement y en avoir
+Est-ce qu'il y a de la peche ?
+- Non, je n'aime pas la pèche
+- Il doit surement y en avoir
+- Il doit surement y en avoir
+- Il doit surement y en avoir
+Est-ce que le fond est violet ?
+- Qui metterait une couleur pareille
+- A oui, c'est joli n'est-ce pas ?
+- Qui metterait une couleur pareille
+- Qui metterait une couleur pareille
+Est-ce que le fond est bleu ?
+- Qui metterait une couleur pareille
+- Qui metterait une couleur pareille
+- Qui metterait une couleur pareille
+- A oui, c'est joli n'est-ce pas ?
+Combien y a-t-il de tubs ?
+- 1 tub, et c'est le meilleur
+- Nous sommes 13 mon capitaine
+- Nous sommes une douzaine
+- Nous sommes au nombre de 15
+Est-ce qu'il y une mare de lait ?
+- Non, je suis fait avec du lait mais je n'aime pas trop
+- Oui oui
+- Ah oui, le lait, j'aime ça
+- Ah oui, le lait, j'aime ça
+Est-ce que c'est écrit en hollandais ?
+- 100% français
+- 100% français
+- Bien vu
+- Bien vu
+Est-ce que c'est écrit en langue étrangère ?
+- 100% français
+- 100% français
+- Oui monsieur, c'est du hollandais
+- Oui monsieur, c'est du hollandais
+Est-ce qu'il se conserve 8h au frigo ?
+- Je suis tellement bon que tu me mangeras avant
+- Oui, mais tu me mangeras avant de toute façon
+- Je suis tellement bon que tu me mangeras avant
+- Je suis tellement bon que tu me mangeras avant
+De quelle couleur sont les tubs ?
+- Rouge monsieur
+- Rouge monsieur
+- Rouge, rose et orange, c'est beau non ?
+- Rouge, rose et orange, c'est beau non ?
+De quelle couleur est le fond ?
+- Du blanc
+- Du violet
+- Du bleu
+- Du bleu
