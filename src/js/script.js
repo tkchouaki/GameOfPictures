@@ -122,7 +122,9 @@ var controller = function($scope)
         $scope.messages.push(new Message("player", message));
         $scope.liteTalkChatBox.value = "ask " + message;
         BOT_chatboxOnSend('litetalkchatbox');
-        $scope.messages.push(new Message("chatBot", $scope.responseArea.value));
+        var response = $scope.responseArea.value;
+        response = response.replace(/^[A-Z]+.*:/, "");
+        $scope.messages.push(new Message("chatBot", response));
         $scope.message = "";
     };
 
