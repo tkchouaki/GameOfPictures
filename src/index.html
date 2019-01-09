@@ -10,6 +10,7 @@
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/angular.min.js"></script>
+        <script src="js/litetalk.code.js"></script>
         <script src="js/script.js"></script>
     </head>
 
@@ -65,6 +66,9 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
+                    <input style="visibility:hidden; position:fixed;" id="litetalkchatbox" type="text" value="ask toto">
+                    <textarea class="answers" id="johnballoon" spellcheck="false" hidden>
+                    </textarea>
                     <div id="messenger">
                         <div id="messenger-messages">
                             <div ng-repeat="message in messages" class="message message-{{message.source}}">
