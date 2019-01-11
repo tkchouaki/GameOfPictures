@@ -1,6 +1,18 @@
+function onWin()
+{
+    alert("Yeah, you guessed well. Congratulations");
+    location.reload();
+}
+
+function onLose()
+{
+    alert("No, that's not it. You'll do better next time");
+    location.reload();
+}
+
 const topic1 = [
-    [["KEY", "_class"], ["VAL", "bot"], ["BOT", "Bot1"]],
-    [["KEY", "_htmlprefix"], ["VAL", "b1"]],
+    [["KEY", "_class"], ["VAL", "bot"], ["BOT", "johnBot"]],
+    [["KEY", "_htmlprefix"], ["VAL", "john"]],
     [["KEY", "box"], ["VAL", false], ["TYPE", "BOOL"], ["ONASK", "No, there is not"]],
     [["KEY", "tubs"], ["VAL", 1], ["TYPE", "INT"], ["ONASK", "Of course there is, the product is called 'petit filous tubs'"]],
     [["KEY", "food coloring"], ["VAL", "Maybe"], ["TYPE", "STR"]],
@@ -17,6 +29,10 @@ const topic1 = [
     [["KEY", "fridge"], ["VAL", false], ["TYPE", "BOOL"], ["ONASK", "I taste so good that you'll eat me before that"]],
     [["KEY", "color"], ["VAL", "red sir"], ["TYPE", "STR"]],
     [["KEY", "background"], ["VAL", "white"], ["TYPE", "STR"]],
+    [["KEY", "blinky"], ["ONASK", onWin], ["TYPE", "STR"], ["Val", "it's over"]],
+    [["KEY", "inky"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]],
+    [["KEY", "pinky"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]],
+    [["KEY", "sue"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]]
     [["KEY", "promotion"], ["VAL", false], ["TYPE", "BOOL"], ["ONASK", "No, there is not"]],
     [["KEY", "fabulous"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "Of course, I am"]],
     [["KEY", "opened"], ["VAL", false], ["TYPE", "BOOL"], ["ONASK", "What ? No !"]],
@@ -24,8 +40,8 @@ const topic1 = [
 ];
 
 const topic2 = [
-    [["KEY", "_class"], ["VAL", "bot"], ["BOT", "Bot1"]],
-    [["KEY", "_htmlprefix"], ["VAL", "b1"]],
+    [["KEY", "_class"], ["VAL", "bot"], ["BOT", "johnBot"]],
+    [["KEY", "_htmlprefix"], ["VAL", "john"]],
     [["KEY", "box"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "Yes, there is a box"]],
     [["KEY", "tubs"], ["VAL", 1], ["TYPE", "INT"], ["ONASK", "Of course there is, the product is called 'petit filous tubs'"]],
     [["KEY", "food coloring"], ["VAL", "Maybe"], ["TYPE", "STR"]],
@@ -42,6 +58,10 @@ const topic2 = [
     [["KEY", "fridge"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "Yes, but you'll eat me before that anyway"]],
     [["KEY", "color"], ["VAL", "red sir"], ["TYPE", "STR"]],
     [["KEY", "background"], ["VAL", "purple"], ["TYPE", "STR"]],
+    [["KEY", "blinky"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]],
+    [["KEY", "inky"], ["ONASK", onWin], ["TYPE", "STR"], ["Val", "it's over"]],
+    [["KEY", "pinky"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]],
+    [["KEY", "sue"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]]
     [["KEY", "promotion"], ["VAL", false], ["TYPE", "BOOL"], ["ONASK", "No, there is not"]],
     [["KEY", "fabulous"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "Of course, I am"]],
     [["KEY", "opened"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "What ? Oh yes ... I'M HAPPY !"]],
@@ -50,8 +70,8 @@ const topic2 = [
 ];
 
 const topic3 = [
-    [["KEY", "_class"], ["VAL", "bot"], ["BOT", "Bot1"]],
-    [["KEY", "_htmlprefix"], ["VAL", "b1"]],
+    [["KEY", "_class"], ["VAL", "bot"], ["BOT", "johnBot"]],
+    [["KEY", "_htmlprefix"], ["VAL", "john"]],
     [["KEY", "box"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "Yes, there is a box"]],
     [["KEY", "tubs"], ["VAL", 1], ["TYPE", "INT"], ["ONASK", "Of course there is, the product is called 'petit filous tubs'"]],
     [["KEY", "food coloring"], ["VAL", "No, we don't use that shit"], ["TYPE", "STR"]],
@@ -68,6 +88,10 @@ const topic3 = [
     [["KEY", "fridge"], ["VAL", false], ["TYPE", "BOOL"], ["ONASK", "i taste so good that you'll eat me before that"]],
     [["KEY", "color"], ["VAL", "Red, pink and orange, beautiful isn't it ?"], ["TYPE", "STR"]],
     [["KEY", "background"], ["VAL", "Blue"], ["TYPE", "STR"]],
+    [["KEY", "blinky"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]],
+    [["KEY", "inky"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]],
+    [["KEY", "pinky"], ["ONASK", onWin], ["TYPE", "STR"], ["Val", "it's over"]],
+    [["KEY", "sue"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]]
     [["KEY", "promotion"], ["VAL", false], ["TYPE", "BOOL"], ["ONASK", "No, there is not"]],
     [["KEY", "fabulous"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "Of course, I am"]],
     [["KEY", "opened"], ["VAL", false], ["TYPE", "BOOL"], ["ONASK", "What ? No !"]],
@@ -76,13 +100,13 @@ const topic3 = [
 ];
 
 const topic4 = [
-    [["KEY", "_class"], ["VAL", "bot"], ["BOT", "Bot1"]],
-    [["KEY", "_htmlprefix"], ["VAL", "b1"]],
+    [["KEY", "_class"], ["VAL", "bot"], ["BOT", "johnBot"]],
+    [["KEY", "_htmlprefix"], ["VAL", "john"]],
     [["KEY", "box"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "Yes, there is a box"]],
     [["KEY", "tubs"], ["VAL", 1], ["TYPE", "INT"], ["ONASK", "Of course there is, the product is called 'petit filous tubs'"]],
     [["KEY", "food coloring"], ["VAL", "No, we don't use that shit"], ["TYPE", "STR"]],
     [["KEY", "pirate"], ["VAL", "Hell yeah"], ["TYPE", "STR"]],
-    [["KEY", "eco"], ["VAL", "No one that i know"], ["TYPE", "STR"]],
+    [["KEY", "eco"], ["VAL", "Of course"], ["TYPE", "STR"]],
     [["KEY", "star"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "Yes"]],
     [["KEY", "strawberries"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "It has to contain some"]],
     [["KEY", "raspberries"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "It has to contain some"]],
@@ -94,6 +118,10 @@ const topic4 = [
     [["KEY", "fridge"], ["VAL", false], ["TYPE", "BOOL"], ["ONASK", "i taste so good that you'll eat me before that"]],
     [["KEY", "color"], ["VAL", "Red, pink and orange, beautiful isn't it ?"], ["TYPE", "STR"]],
     [["KEY", "background"], ["VAL", "Blue"], ["TYPE", "STR"]],
+    [["KEY", "blinky"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]],
+    [["KEY", "inky"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]],
+    [["KEY", "pinky"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]],
+    [["KEY", "sue"], ["ONASK", onWin], ["TYPE", "STR"], ["Val", "it's over"]]
     [["KEY", "promotion"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "Yes, there is !"]],
     [["KEY", "fabulous"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "Of course, I am"]],
     [["KEY", "opened"], ["VAL", false], ["TYPE", "BOOL"], ["ONASK", "What ? No !"]],
