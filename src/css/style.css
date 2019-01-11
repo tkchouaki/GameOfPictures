@@ -19,9 +19,27 @@
     width: auto;
 }
 
+#carousel .carousel-inner .carousel-item .carousel-caption
+{
+    position: absolute;
+    top: 0;
+    text-align: left;
+    left: inherit;
+    right: inherit;
+    width: 280px;
+    bottom:-95px;
+    margin-top: 20px;
+    color: black;
+}
+
+.thumbnail-header
+{
+    text-align: center;
+}
+
 #messenger
 {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 
@@ -72,4 +90,5 @@
 .message-content
 {
     padding: 2px 5px;
+    font-size: small;
 }
