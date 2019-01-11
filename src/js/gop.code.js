@@ -17,6 +17,10 @@ const topic1 = [
     [["KEY", "fridge"], ["VAL", false], ["TYPE", "BOOL"], ["ONASK", "I taste so good that you'll eat me before that"]],
     [["KEY", "color"], ["VAL", "red sir"], ["TYPE", "STR"]],
     [["KEY", "background"], ["VAL", "white"], ["TYPE", "STR"]],
+    [["KEY", "promotion"], ["VAL", false], ["TYPE", "BOOL"], ["ONASK", "No, there is not"]],
+    [["KEY", "fabulous"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "Of course, I am"]],
+    [["KEY", "opened"], ["VAL", false], ["TYPE", "BOOL"], ["ONASK", "What ? No !"]],
+    [["KEY", "alone"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "Sadly, there is not much tub's around me ... EAT ME !"]],
 ];
 
 const topic2 = [
@@ -38,6 +42,11 @@ const topic2 = [
     [["KEY", "fridge"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "Yes, but you'll eat me before that anyway"]],
     [["KEY", "color"], ["VAL", "red sir"], ["TYPE", "STR"]],
     [["KEY", "background"], ["VAL", "purple"], ["TYPE", "STR"]],
+    [["KEY", "promotion"], ["VAL", false], ["TYPE", "BOOL"], ["ONASK", "No, there is not"]],
+    [["KEY", "fabulous"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "Of course, I am"]],
+    [["KEY", "opened"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "What ? Oh yes ... I'M HAPPY !"]],
+    [["KEY", "alone"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "No I'm not ! But he is well hidden ..."]],
+    [["KEY", "sing"], ["VAL", "We're Tub's, we're not pots and we have everything you need. Fruit. Fruit. Fresh cheese.  Fresh cheese. Little Tub's scoundrels, but what's in that tub? FRUIT AND FRESH CHEESE, BOSS!"], ["TYPE", "STR"]],
 ];
 
 const topic3 = [
@@ -59,6 +68,11 @@ const topic3 = [
     [["KEY", "fridge"], ["VAL", false], ["TYPE", "BOOL"], ["ONASK", "i taste so good that you'll eat me before that"]],
     [["KEY", "color"], ["VAL", "Red, pink and orange, beautiful isn't it ?"], ["TYPE", "STR"]],
     [["KEY", "background"], ["VAL", "Blue"], ["TYPE", "STR"]],
+    [["KEY", "promotion"], ["VAL", false], ["TYPE", "BOOL"], ["ONASK", "No, there is not"]],
+    [["KEY", "fabulous"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "Of course, I am"]],
+    [["KEY", "opened"], ["VAL", false], ["TYPE", "BOOL"], ["ONASK", "What ? No !"]],
+    [["KEY", "alone"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "Join the party !"]],
+    [["KEY", "sing"], ["VAL", "We're Tub's, we're not pots and we have everything you need. Fruit. Fruit. Fresh cheese.  Fresh cheese. Little Tub's scoundrels, but what's in that tub? FRUIT AND FRESH CHEESE, BOSS!"], ["TYPE", "STR"]],
 ];
 
 const topic4 = [
@@ -80,6 +94,11 @@ const topic4 = [
     [["KEY", "fridge"], ["VAL", false], ["TYPE", "BOOL"], ["ONASK", "i taste so good that you'll eat me before that"]],
     [["KEY", "color"], ["VAL", "Red, pink and orange, beautiful isn't it ?"], ["TYPE", "STR"]],
     [["KEY", "background"], ["VAL", "Blue"], ["TYPE", "STR"]],
+    [["KEY", "promotion"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "Yes, there is !"]],
+    [["KEY", "fabulous"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "Of course, I am"]],
+    [["KEY", "opened"], ["VAL", false], ["TYPE", "BOOL"], ["ONASK", "What ? No !"]],
+    [["KEY", "alone"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "Join the party !"]],
+    [["KEY", "sing"], ["VAL", "We're Tub's, we're not pots and we have everything you need. Fruit. Fruit. Fresh cheese.  Fresh cheese. Little Tub's scoundrels, but what's in that tub? FRUIT AND FRESH CHEESE, BOSS!"], ["TYPE", "STR"]],
 ];
 
 var Bot1 = new BOT_makeBot("Bot1", "topic1");
