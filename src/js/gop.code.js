@@ -32,7 +32,7 @@ const topic1 = [
     [["KEY", "blinky"], ["ONASK", onWin], ["TYPE", "STR"], ["Val", "it's over"]],
     [["KEY", "inky"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]],
     [["KEY", "pinky"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]],
-    [["KEY", "sue"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]]
+    [["KEY", "sue"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]],
     [["KEY", "promotion"], ["VAL", false], ["TYPE", "BOOL"], ["ONASK", "No, there is not"]],
     [["KEY", "fabulous"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "Of course, I am"]],
     [["KEY", "opened"], ["VAL", false], ["TYPE", "BOOL"], ["ONASK", "What ? No !"]],
@@ -61,7 +61,7 @@ const topic2 = [
     [["KEY", "blinky"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]],
     [["KEY", "inky"], ["ONASK", onWin], ["TYPE", "STR"], ["Val", "it's over"]],
     [["KEY", "pinky"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]],
-    [["KEY", "sue"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]]
+    [["KEY", "sue"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]],
     [["KEY", "promotion"], ["VAL", false], ["TYPE", "BOOL"], ["ONASK", "No, there is not"]],
     [["KEY", "fabulous"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "Of course, I am"]],
     [["KEY", "opened"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "What ? Oh yes ... I'M HAPPY !"]],
@@ -91,7 +91,7 @@ const topic3 = [
     [["KEY", "blinky"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]],
     [["KEY", "inky"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]],
     [["KEY", "pinky"], ["ONASK", onWin], ["TYPE", "STR"], ["Val", "it's over"]],
-    [["KEY", "sue"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]]
+    [["KEY", "sue"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]],
     [["KEY", "promotion"], ["VAL", false], ["TYPE", "BOOL"], ["ONASK", "No, there is not"]],
     [["KEY", "fabulous"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "Of course, I am"]],
     [["KEY", "opened"], ["VAL", false], ["TYPE", "BOOL"], ["ONASK", "What ? No !"]],
@@ -121,7 +121,7 @@ const topic4 = [
     [["KEY", "blinky"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]],
     [["KEY", "inky"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]],
     [["KEY", "pinky"], ["ONASK", onLose], ["TYPE", "STR"], ["Val", "it's over"]],
-    [["KEY", "sue"], ["ONASK", onWin], ["TYPE", "STR"], ["Val", "it's over"]]
+    [["KEY", "sue"], ["ONASK", onWin], ["TYPE", "STR"], ["Val", "it's over"]],
     [["KEY", "promotion"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "Yes, there is !"]],
     [["KEY", "fabulous"], ["VAL", true], ["TYPE", "BOOL"], ["ONASK", "Of course, I am"]],
     [["KEY", "opened"], ["VAL", false], ["TYPE", "BOOL"], ["ONASK", "What ? No !"]],
